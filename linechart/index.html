@@ -7,14 +7,15 @@
     <title>WebTotem Charts</title>
 </head>
 <body>
-    <div id="wrapper"></div>
-    <div id="tooltipAttacks" class="tooltip">
-        <span id="countAttacks"></span>
+    <div id="line-chart" class="line-chart">
+        <div id="tooltipAttacks" class="line-chart__tooltip">
+            <span id="countAttacks"></span>
+        </div>
+        <div id="tooltipBlocked" class="line-chart__tooltip">
+            <span id="countBlocked"></span>
+        </div>
     </div>
-    <div id="tooltipBlocked" class="tooltip">
-        <span id="countBlocked"></span>
-    </div>
-
+    
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="./chart.js"></script>
 </body>

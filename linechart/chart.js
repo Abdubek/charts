@@ -87,7 +87,7 @@ async function drawLineChart(dataset) {
     dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
 
 
-    const wrapper = d3.select("#wrapper") 
+    const wrapper = d3.select("#line-chart") 
         .append("svg")
         .attr("width", dimensions.width)
         .attr("height", dimensions.height)
